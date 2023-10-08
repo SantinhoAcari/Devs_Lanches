@@ -1,0 +1,24 @@
+:root{
+    --primary-color: #004dda;
+    --dark: #5a5a5f;
+    -light: #fff;
+
+}
+body{
+    font-family: Poppins, Arial, sans-serif;
+    color: var(--dark); 
+    display: flex;
+
+}
+.cabecalho{
+    background-color: orange;
+    flex-grow: 1;
+}
+.menuesquerdo{
+    background-color: yellow;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    
+}
