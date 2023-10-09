@@ -1,0 +1,19 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+    background: url(images/logogrupo.png);
+}
+img{
+    width: 150px;
+    border-radius: 45%;
+    
+}
+
+p{
+    color: white;
+
+}
+div{
+    align-items: center;
+    text-align: center;
+}
