@@ -1,19 +1,56 @@
-html body{
-    margin: 0px;
-    padding: 0px;
-    background: url(images/logogrupo.png);
+.container{
+    border: 2px solid red;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    background-color: #0e0f10;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    grid-template-areas: 't p p p' 't p p p' 't p p p' 'ft ft ft ft';
+   
+ 
+
 }
 img{
-    width: 150px;
-    border-radius: 45%;
+    border: 0;
+    width: 75%;
+    border-radius: 20px;
+ 
+}
+.sidenav{
+    width: 200px;
+    height: 900px;
+    background-color: rgb(48, 139, 139);
+    border-radius: 20px;
+    grid-area: t;
     
+   
+ 
 }
+.produtos{
+    width: 300px;
+   align-items: center;
+    
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+   
 
-p{
-    color: white;
+   
+   
+  
+}
+.footer{
+    width: auto;
+    height: 100px;
+    background-color: rgb(170, 58, 58);
+    border-radius: 20px;
+    grid-area: ft;
+   
+    
 
 }
-div{
-    align-items: center;
-    text-align: center;
+.footer > img{
+    width: 10%;
 }
