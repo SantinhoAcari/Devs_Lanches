@@ -1,56 +1,160 @@
 .container{
-    border: 2px solid red;
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 10px;
-    background-color: #0e0f10;
-    align-content: center;
-    justify-content: center;
-    padding: 10px;
-    grid-template-areas: 't p p p' 't p p p' 't p p p' 'ft ft ft ft';
-   
- 
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
 
 }
-img{
-    border: 0;
-    width: 75%;
-    border-radius: 20px;
- 
+
+h1{
+    font-size: 50px;
+    margin: 0;
 }
-.sidenav{
+div > .uc{
+    text-align: center;
+    background-color: blueviolet;
+    margin: 0;
+}
+.container > div img{
     width: 200px;
-    height: 900px;
-    background-color: rgb(48, 139, 139);
-    border-radius: 20px;
-    grid-area: t;
-    
+}
+
+
+.integrantes{
+display: flex;
+justify-content: space-between;
+text-align: center;
+color: white;
+font-weight: bolder;
+height: 193px;
+border-bottom: 5px solid black;
+background-color: rgb(6, 138, 28);
+
+}
+.alunos{
+    display: flex;
+    align-items: start;
+    text-align: center;
    
+}
+
+.integrantes #nome{
+   margin-top: 145px;
+   color: white;
  
 }
-.produtos{
-    width: 300px;
-   align-items: center;
+.santos{
     
+    width: 130px;
+    height: 90%;
+    background-image: url(imagens/santinhoLaranja.jpeg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6px;
+    margin-left: 6px;
     border-radius: 20px;
-    font-size: 20px;
-    font-weight: bolder;
+    
    
+    
+}
+.Alburquerque{
+    
+    width: 150px;
+    height: 90%;
+    background-image: url(imagens/alburquerque.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: 20px;
+}
+.jonhvictor{
+    
+    width: 150px;
+    height: 90%;
+    background-image: url(imagens/jonhvictor.jpeg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: 20px;
+}
+.michell{
+    
+    width: 150px;
+    height: 90%;
+    background-image: url(imagens/Lexlutor.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: 20px;
+}
+.Wanfranklin{
+    
+    width: 160px;
+    height: 90%;
+    background-image: url(imagens/Wanfranklin.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 6px;
+    border-radius: 20px;
+    font-size: 14px;
+ 
+}
 
-   
-   
+.entrada{
+    background-image: url(imagens/codigo2.png);
+    background-position: top center;
+    color:white;
+    text-align: center;
+    letter-spacing: 3px;
+    font-style: italic;
   
 }
-.footer{
-    width: auto;
-    height: 100px;
-    background-color: rgb(170, 58, 58);
-    border-radius: 20px;
-    grid-area: ft;
-   
-    
+.entrada h2{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.entrada p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.produtos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #89ac0e;
+    border-top: 5px solid black;
+   }
+.prudutos-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size:20px;
+    text-align: center;
+}
+h3{
+    font-size: 120px;
+    margin: 0;
+    padding: 0;
 
 }
-.footer > img{
-    width: 10%;
+.a3 p{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+
+}
+.a3{
+    align-items: center;
+    text-align: center;
 }
