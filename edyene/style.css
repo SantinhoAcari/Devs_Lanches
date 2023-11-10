@@ -1,0 +1,18 @@
+.cabecalho{
+    display: flex;
+    background-color: blueviolet;
+    border-radius: 20%;
+    border: 3px salmon;
+    align-content: space-between;
+   
+}
+.cabecalho div{
+    text-align: center;
+    border: 2px solid #fff0;
+    width: 50px;
+    background-color: black;
+    align-items: center;
+    align-items: end;
+    display: flex;
+
+}
